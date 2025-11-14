@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "cubase": {
+      "command": "python3",
+      "args": [
+        "/Users/rontzarfati/Desktop/cubase mcp/server.py"
+      ]
+    }
+  }
+}
