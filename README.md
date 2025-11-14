@@ -1,6 +1,24 @@
 # Cubase MCP Server 🎵
 
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![Platform](https://img.shields.io/badge/platform-macOS-lightgrey.svg)
+![Cubase](https://img.shields.io/badge/Cubase-14%20%7C%2015-orange.svg)
+
 **שרת MCP לשליטה בקיובייס (Steinberg Cubase) דרך Claude!**
+
+[English](#english) | [עברית](#hebrew)
+
+## תוכן עניינים
+
+- [מה זה?](#מה-זה)
+- [יכולות מיוחדות](#יכולות-מיוחדות)
+- [התקנה](#התקנה)
+- [שימוש](#שימוש)
+- [כלים זמינים](#כלים-זמינים)
+- [מגבלות ושיקולים](#מגבלות-ושיקולים)
+- [תרומה לפרויקט](#תרומה-לפרויקט)
+- [רישיון](#רישיון)
 
 ## מה זה?
 
@@ -208,12 +226,44 @@ pip install -r requirements.txt
 
 יש בעיה או רעיון לשיפור? פתח issue או שלח pull request!
 
+## תרומה לפרויקט
+
+רוצה לתרום? מעולה!
+
+1. קרא את [CONTRIBUTING.md](CONTRIBUTING.md)
+2. Fork את הפרויקט
+3. צור branch חדש (`git checkout -b feature/amazing-feature`)
+4. Commit את השינויים (`git commit -m 'Add amazing feature'`)
+5. Push ל-branch (`git push origin feature/amazing-feature`)
+6. פתח Pull Request
+
+### רעיונות לתרומות
+- 🎹 הוסף אקורדים ומבנים מוזיקליים נוספים
+- 🎼 שפר את אלגוריתמי יצירת המלודיות
+- 🔧 הוסף תמיכה ב-Windows/Linux
+- 📚 תרגם תיעוד לשפות נוספות
+- 🐛 דווח על באגים ותקן אותם
+
 ## רישיון
 
-MIT License - השתמש בחופשיות!
+MIT License - ראה [LICENSE](LICENSE) לפרטים מלאים.
+
+## קרדיטים
+
+- נבנה עם [MCP](https://modelcontextprotocol.io/)
+- Virtual MIDI דרך [mido](https://mido.readthedocs.io/) ו-[python-rtmidi](https://pypi.org/project/python-rtmidi/)
+- עבור [Steinberg Cubase](https://www.steinberg.net/cubase/)
 
 ---
 
-**נבנה עם ❤️ על ידי Claude Code**
+**נבנה עם ❤️ על ידי [Claude Code](https://claude.com/claude-code)**
 
 🎵 **Happy Music Making!** 🎵
+
+---
+
+## Star History
+
+אם הפרויקט עזר לך, אנא תן ⭐️ ב-GitHub!
+
+[![Star History Chart](https://api.star-history.com/svg?repos=hedidjs/cubase-mcp&type=Date)](https://star-history.com/#hedidjs/cubase-mcp&Date)
